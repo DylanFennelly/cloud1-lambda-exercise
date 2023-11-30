@@ -15,3 +15,5 @@ If the AWS CDK has not been configured before on the system, install the AWS CLI
 aws sts get-caller-identity --query "YourAccount" --output text
 cdk bootstrap aws://YOUR-ACCOUNT-NUMBER/eu-west-1
 ```
+_________
+Disclaimer: This CloudFormation Stack uses code obtained from the Distributed Systems module.
